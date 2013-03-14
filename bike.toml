@@ -32,3 +32,15 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 	
+	[fines.43_2010_ndcp_20_1_a]
+	name                  = "Không có còi; đèn soi biển số; đèn báo hãm; gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1

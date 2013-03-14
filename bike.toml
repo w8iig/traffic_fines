@@ -1,0 +1,18 @@
+title = "Traffic Fines for Bikes"
+
+[changes]
+	[changes.20130314]
+	author = "sondh"
+	reason = "create bike.toml"
+
+[fines]
+	[fines.71_2012_ndcp_1_2_c]
+	name                  = "Test Fine"
+	description           = "Some description text"
+	fine                  = "100000-200000"
+	fine_big_city         = "500000-1000000"
+	license_withheld_days = 0
+	source                = "http://domain.com/source/71_2012_ndcp/1/2/c.htm"
+	active_since_ymd      = 20130314
+	active_now            = 0
+	

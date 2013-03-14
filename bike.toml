@@ -44,3 +44,16 @@ title = "Traffic Fines for Bikes"
 	updated_ymd           = 20130314
 	active_since_ymd      = 20130314
 	active_now            = 1
+
+	[fines.71_2012_ndcp_8_1]
+	name                  = "Tự ý thay đổi nhãn hiệu, màu sơn của xe không đúng với Giấy đăng ký xe"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với chủ xe mô tô, xe gắn máy và các loại xe tương tự mô tô"
+	fine                  = "100000-200000"
+	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=163786"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1

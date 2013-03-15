@@ -19,6 +19,32 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 0
 
+	[fines.71_2012_ndcp_8_3_c]
+	name                  = "Tự ý thay đổi khung, máy, hình dáng, kích thước của xe"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "http://giaothongvn.com/nghi-dinh-71/Diem-c/Khoan-3/Dieu-8/"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.43_2010_ndcp_20_1_a]
+	name                  = "Không có còi; đèn soi biển số; đèn báo hãm; gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
 	[fines.71_2012_ndcp_2_1_a]
 	name                  = "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, trừ các hành vi vi phạm quy định tại Điểm a, Điểm đ, Điểm h Khoản 2; Điểm c, Điểm đ, Điểm h Khoản 3; Điểm c, Điểm d, Điểm e, Điểm g, Điểm i Khoản 4; Điểm a, Điểm c, Điểm d Khoản 5; Điểm đ Khoản 6; Điểm d Khoản 7 Điều này"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng "

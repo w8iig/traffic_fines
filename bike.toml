@@ -97,11 +97,11 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 	
-	[fines.43_2012_ndcp_2_5_đ]
+	[fines.43_2012_ndcp_2_5_dd]
 	name                  = " Không tuân thủ hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc nơi ùn tắc giao thông; không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông; không nhường đường hoặc gây cản trở xe ưu tiên"
 	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
-	fine_source           = "2012/2/5/đ"
+	fine_source           = "2012/2/5/dd"
 	fine_big_city         = ""
 	fine_big_city_source  = ""
 	license_days          = 0
@@ -162,11 +162,11 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.43_2012_ndcp_2_6_đ]
+	[fines.43_2012_ndcp_2_6_dd]
 	name                  = "Điều khiển xe chạy quá tốc độ quy định trên 20 km/h"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
-	fine_source           = "2012/2/6/đ"
+	fine_source           = "2012/2/6/dd"
 	fine_big_city         = ""
 	fine_big_city_source  = ""
 	license_days          = 0
@@ -179,7 +179,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
-	fine_source           = "2012/2/6/đ"
+	fine_source           = "2012/2/6/e"
 	fine_big_city         = ""
 	fine_big_city_source  = ""
 	license_days          = 0

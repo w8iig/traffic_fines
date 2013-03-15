@@ -89,3 +89,108 @@ title = "Traffic Fines for Bikes"
 	updated_ymd           = 20130314
 	active_since_ymd      = 20130314
 	active_now            = 1
+
+	[fines.71_2012_ndcp_8_3_a]
+	name                  = "Tự ý đục lại số khung, số máy"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/8/3/a"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_3_b]
+	name                  = "Tẩy xóa, sửa chữa hoặc giả mạo hồ sơ đăng ký xe"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/8/3/b"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_3_c]
+	name                  = "Tự ý thay đổi khung, máy, hình dáng, kích thước của xe"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/8/3/c"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_3_d]
+	name                  = "Khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số, Giấy đăng ký xe"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/8/3/d"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_3_dd]
+	name                  = "Giao xe hoặc để cho người không đủ điều kiện theo quy định của pháp luật điều khiển xe tham gia giao thông"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/8/3/dd"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_3_e]
+	name                  = "Không chuyển quyền sở hữu phương tiện theo quy định"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/8/3/e"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_3_g]
+	name                  = "Không mua hoặc nộp phí cho phương tiện khi tham gia giao thông theo quy định"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/8/3/g"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1

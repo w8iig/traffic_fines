@@ -194,3 +194,108 @@ title = "Traffic Fines for Bikes"
 	updated_ymd           = 20130314
 	active_since_ymd      = 20130314
 	active_now            = 1
+
+	[fines.71_2012_ndcp_8_4_a]
+	name                  = "Tự ý đục lại số khung, số máy"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
+	fine                  = "2000000-4000000"
+	fine_source           = "2012/8/4/a"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_4_b]
+	name                  = "Tẩy xóa hoặc sửa chữa Giấy đăng ký xe, hồ sơ đăng ký xe, Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường hoặc các loại giấy tờ khác về phương tiện"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
+	fine                  = "2000000-4000000"
+	fine_source           = "2012/8/4/b"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_4_c]
+	name                  = "Không chấp hành việc thu hồi Giấy đăng ký xe; biển số xe; Sổ chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông cơ giới đường bộ theo quy định"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
+	fine                  = "2000000-4000000"
+	fine_source           = "2012/8/4/c"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_4_d]
+	name                  = "Vẽ, dán quảng cáo trên xe không đúng quy định"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
+	fine                  = "2000000-4000000"
+	fine_source           = "2012/8/4/d"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_4_dd]
+	name                  = "Không làm thủ tục đổi lại Giấy đăng ký xe khi xe đã được cải tạo"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
+	fine                  = "2000000-4000000"
+	fine_source           = "2012/8/4/dd"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_4_e]
+	name                  = "Giao xe hoặc để cho người không đủ điều kiện theo quy định của pháp luật điều khiển xe tham gia giao thông"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
+	fine                  = "2000000-4000000"
+	fine_source           = "2012/8/4/e"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_4_g]
+	name                  = "Khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số, Giấy đăng ký xe"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
+	fine                  = "2000000-4000000"
+	fine_source           = "2012/8/4/g"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1

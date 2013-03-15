@@ -299,3 +299,33 @@ title = "Traffic Fines for Bikes"
 	updated_ymd           = 20130314
 	active_since_ymd      = 20130314
 	active_now            = 1
+
+	[fines.71_2012_ndcp_8_5_a]
+	name                  = "Thuê, mượn linh kiện, phụ kiện của xe ô tô khi kiểm định"
+	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
+	fine                  = "4000000-6000000"
+	fine_source           = "2012/8/5/a"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_8_5_b]
+	name                  = "Đưa xe cơ giới, xe máy chuyên dùng không có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định ra tham gia giao thông"
+	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
+	fine                  = "4000000-6000000"
+	fine_source           = "2012/8/5/b"
+	fine_big_city         = ""
+	fine_big_city_source  = ""
+	license_days          = 0
+	license_days_source   = ""
+	vehicle_days          = 0
+	vehicle_days_source   = ""
+	updated_ymd           = 20130314
+	active_since_ymd      = 20130314
+	active_now            = 1

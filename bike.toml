@@ -32,7 +32,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Không có còi; đèn soi biển số; đèn báo hãm; gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/1/a"
 	updated_ymd           = 20130314
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -41,7 +41,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Gắn biển số không đúng quy định; biển số không rõ chữ, số; biển số bị bẻ cong, bị che lấp, bị hỏng"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/1/b"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -50,7 +50,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Điều khiển xe không có đèn tín hiệu hoặc có nhưng không có tác dụng"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/1/c"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -59,7 +59,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Sử dụng còi không đúng quy chuẩn kỹ thuật cho từng loại xe"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng, tịch thu còi"
 	fine                  = "100000-200000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/2/a"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -68,7 +68,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Không có bộ phận giảm thanh, giảm khói hoặc có nhưng không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/2/b"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -77,7 +77,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Không có đèn chiếu sáng gần, xa hoặc có nhưng không có tác dụng"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/2/c"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -86,7 +86,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Không có hệ thống hãm hoặc có nhưng không bảo đảm tiêu chuẩn kỹ thuật"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/2/d"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -95,7 +95,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Không có Giấy đăng ký xe theo quy định"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng"
 	fine                  = "300000-500000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/3/a"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -105,7 +105,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Sử dụng Giấy đăng ký xe đã bị tẩy xóa; sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe hoặc không do cơ quan có thẩm quyền cấp"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
 	fine                  = "300000-500000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/3/b"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -114,7 +114,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Không gắn biển số (nếu có quy định phải gắn biển số); gắn biển số không đúng với số hoặc ký hiệu trong Giấy đăng ký; biển số không do cơ quan có thẩm quyền cấp"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
 	fine                  = "300000-500000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/3/c"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -123,9 +123,9 @@ title = "Traffic Fines for Bikes"
 	name                  = "Xe đăng ký tạm hoạt động quá phạm vi, thời hạn cho phép"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
 	fine                  = "800000-1000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/4/a"
 	license_days          = 30
-	license_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	license_days_source   = "2010/20/5/c"
    	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -136,9 +136,9 @@ title = "Traffic Fines for Bikes"
 	fine                  = "800000-1000000"
 	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
 	license_days          = 60
-	license_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
-        vehicle_days          = 60
-        vehicle_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	license_days_source   = "2010/20/5/d"
+        vehicle_days          = 9999
+        vehicle_days_source   = "2010/20/5/d"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -148,7 +148,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Điều khiển xe mô tô, xe gắn máy, xe thô sơ chở hành khách, hàng hóa không có biển hiệu hoặc trang phục theo quy định"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng "
 	fine                  = "40000-60000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/31/1"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -157,7 +157,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Tụ tập để cổ vũ, kích động hành vi điều khiển xe chạy quá tốc độ quy định, lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép"
 	description           = "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng"
 	fine                  = "1000000-2000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2012/10/1/a"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -166,9 +166,9 @@ title = "Traffic Fines for Bikes"
 	name                  = "Đua xe đạp, đua xe đạp máy, đua xe xích lô, đua xe súc vật kéo, cưỡi súc vật chạy đua trái phép trên đường giao thông"
 	description           = "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng, tịch thu xe (trừ xe bị chiếm đoạt, súc vật kéo, cưỡi)"
 	fine                  = "1000000-2000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2012/10/1/b"
         vehicle_days          = "9999"
-        vehicle_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+        vehicle_days_source   = "2012/10/6"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -177,7 +177,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Cổ vũ, kích động đua xe trái phép mà cản trở hoặc chống người thi hành công vụ"
 	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
 	fine                  = "4000000-6000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2012/10/2"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -186,11 +186,11 @@ title = "Traffic Fines for Bikes"
 	name                  = "Đua xe mô tô, xe gắn máy, xe máy điện trái phép"
 	description           = "Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "10000000-20000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2012/10/3"
 	license_days          = "9999"
-	license_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	license_days_source   = "2012/10/6"
         vehicle_days          = "9999"
-        vehicle_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+        vehicle_days_source   = "2012/10/6"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -199,11 +199,11 @@ title = "Traffic Fines for Bikes"
 	name                  = "Đua xe ô tô trái phép"
 	description           = "Phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "20000000-30000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2012/10/4"
 	license_days          = "9999"
-	license_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	license_days_source   = "2012/10/6"
         vehicle_days          = "9999"
-        vehicle_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+        vehicle_days_source   = "2012/10/6"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -212,11 +212,11 @@ title = "Traffic Fines for Bikes"
 	name                  = "Đua xe ô tô, xe mô tô, xe gắn máy, xe máy điện, xe đạp máy mà chống người thi hành công vụ"
 	description           = "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "30000000-40000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2012/10/5/a"
 	license_days          = "9999"
-	license_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	license_days_source   = "2012/10/6"
         vehicle_days          = "9999"
-        vehicle_days_source   = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+        vehicle_days_source   = "2012/10/6"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -225,7 +225,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Tổ chức đua xe trái phép"
 	description           = "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng"
 	fine                  = "30000000-40000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2012/10/5/b"
 	updated_ymd           = 20130315
 	active_since_ymd      = 20130315
 	active_now            = 1

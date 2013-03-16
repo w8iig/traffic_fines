@@ -276,23 +276,3 @@ title = "Traffic Fines for Bikes"
 	updated_ymd           = 20130314
 	active_since_ymd      = 20130314
 	active_now            = 1
-
-	[fines.43_2010_ndcp_12_2_c]
-	name                  = "Đu, bám vào phương tiện giao thông đang chạy"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/12/2/c"
-	fine_big_city         = "80000-120000"
-	fine_big_city_source  = "2012/13/46/2"
-	updated_ymd           = 20130314
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.43_2010_ndcp_12_3]
-	name                  = "Người đi bộ đi vào đường cao tốc"
-	description           = "Phạt tiền từ 80.000 đồng đến 120.000 đồng đối với người đi bộ, trừ người phục vụ việc quản lý, bảo trì đường cao tốc"
-	fine                  = "80000-120000"
-	fine_source           = "2010/12/3"
-	updated_ymd           = 20130314
-	active_since_ymd      = 20130314
-	active_now            = 1

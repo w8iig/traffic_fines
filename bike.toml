@@ -224,44 +224,6 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_6_a]
-	name                  = "Tự ý thay đổi tổng thành khung; tổng thành máy; hệ thống phanh; hệ thống truyền động; hệ thống chuyển động hoặc tự ý cải tạo kết cấu, hình dáng, kích thước của xe không đúng thiết kế của nhà chế tạo hoặc thiết kế cải tạo đã được cơ quan có thẩm quyền phê duyệt; tự ý thay đổi tính năng sử dụng của xe"
-	description           = "Phạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "6000000-10000000"
-	fine_source           = "2012/8/6/a"
-	updated_ymd           = 20130314
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_8_6_b]
-	name                  = "Cải tạo các loại xe ô tô khác thành xe ô tô chở khách"
-	description           = "Phạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "6000000-10000000"
-	fine_source           = "2012/8/6/b"
-	vehicle_days          = 9999
-	vehicle_days_source   = "2012/8/7/c"
-	updated_ymd           = 20130314
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_8_6_c]
-	name                  = "Không chuyển quyền sở hữu phương tiện theo quy định"
-	description           = "Phạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "6000000-10000000"
-	fine_source           = "2012/8/6/c"
-	updated_ymd           = 20130314
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_8_6_d]
-	name                  = "Không mua hoặc nộp phí cho phương tiện khi tham gia giao thông theo quy định"
-	description           = "Phạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "6000000-10000000"
-	fine_source           = "2012/8/6/d"
-	updated_ymd           = 20130314
-	active_since_ymd      = 20130314
-	active_now            = 1
-
 	[fines.43_2010_ndcp_12_1_a]
 	name                  = "Không đi đúng phần đường quy định"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng"

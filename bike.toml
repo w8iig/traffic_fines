@@ -33,7 +33,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
 	fine_source           = "2010/20/1/a"
-	updated_ymd           = 20130314
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130314
 	active_now            = 1
 
@@ -42,7 +42,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
 	fine_source           = "2010/20/1/b"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -51,7 +51,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
 	fine_source           = "2010/20/1/c"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -60,7 +60,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng, tịch thu còi"
 	fine                  = "100000-200000"
 	fine_source           = "2010/20/2/a"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -69,7 +69,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2010/20/2/b"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -78,7 +78,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2010/20/2/c"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -87,7 +87,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2010/20/2/d"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -96,7 +96,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng"
 	fine                  = "300000-500000"
 	fine_source           = "2010/20/3/a"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -106,7 +106,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
 	fine                  = "300000-500000"
 	fine_source           = "2010/20/3/b"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -115,7 +115,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
 	fine                  = "300000-500000"
 	fine_source           = "2010/20/3/c"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -126,7 +126,7 @@ title = "Traffic Fines for Bikes"
 	fine_source           = "2010/20/4/a"
 	license_days          = 30
 	license_days_source   = "2010/20/5/c"
-   	updated_ymd           = 20130315
+   	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -139,7 +139,7 @@ title = "Traffic Fines for Bikes"
 	license_days_source   = "2010/20/5/d"
         vehicle_days          = 9999
         vehicle_days_source   = "2010/20/5/d"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -149,84 +149,84 @@ title = "Traffic Fines for Bikes"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng "
 	fine                  = "40000-60000"
 	fine_source           = "2010/31/1"
-	updated_ymd           = 20130315
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_10_1_a]
+	[fines.71_2012_ndcp_1_10_37_1_a]
 	name                  = "Tụ tập để cổ vũ, kích động hành vi điều khiển xe chạy quá tốc độ quy định, lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép"
 	description           = "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng"
 	fine                  = "1000000-2000000"
-	fine_source           = "2012/10/1/a"
-	updated_ymd           = 20130315
+	fine_source           = "2012/1/10-37/1/a"
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_10_1_b]
+	[fines.71_2012_ndcp_1_10_37_1_b]
 	name                  = "Đua xe đạp, đua xe đạp máy, đua xe xích lô, đua xe súc vật kéo, cưỡi súc vật chạy đua trái phép trên đường giao thông"
 	description           = "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng, tịch thu xe (trừ xe bị chiếm đoạt, súc vật kéo, cưỡi)"
 	fine                  = "1000000-2000000"
-	fine_source           = "2012/10/1/b"
+	fine_source           = "2012/1/10-37/1/b"
         vehicle_days          = "9999"
-        vehicle_days_source   = "2012/10/6"
-	updated_ymd           = 20130315
+        vehicle_days_source   = "2012/1/10-37/6"
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_10_2]
+	[fines.71_2012_ndcp_1_10_37_2]
 	name                  = "Cổ vũ, kích động đua xe trái phép mà cản trở hoặc chống người thi hành công vụ"
 	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
 	fine                  = "4000000-6000000"
-	fine_source           = "2012/10/2"
-	updated_ymd           = 20130315
+	fine_source           = "2012/1/10-37/2"
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_10_3]
+	[fines.71_2012_ndcp_1_10_37_3]
 	name                  = "Đua xe mô tô, xe gắn máy, xe máy điện trái phép"
 	description           = "Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "10000000-20000000"
-	fine_source           = "2012/10/3"
+	fine_source           = "2012/1/10-37/3"
 	license_days          = "9999"
-	license_days_source   = "2012/10/6"
+	license_days_source   = "2012/1/10-37/6"
         vehicle_days          = "9999"
-        vehicle_days_source   = "2012/10/6"
-	updated_ymd           = 20130315
+        vehicle_days_source   = "2012/1/10-37/6"
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_10_4]
+	[fines.71_2012_ndcp_1_10_37_4]
 	name                  = "Đua xe ô tô trái phép"
 	description           = "Phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "20000000-30000000"
-	fine_source           = "2012/10/4"
+	fine_source           = "2012/1/10-37/4"
 	license_days          = "9999"
-	license_days_source   = "2012/10/6"
+	license_days_source   = "2012/1/10-37/6"
         vehicle_days          = "9999"
-        vehicle_days_source   = "2012/10/6"
-	updated_ymd           = 20130315
+        vehicle_days_source   = "2012/1/10-37/6"
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_10_5_a]
+	[fines.71_2012_ndcp_1_10_37_5_a]
 	name                  = "Đua xe ô tô, xe mô tô, xe gắn máy, xe máy điện, xe đạp máy mà chống người thi hành công vụ"
 	description           = "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "30000000-40000000"
-	fine_source           = "2012/10/5/a"
+	fine_source           = "2012/1/10-37/5/a"
 	license_days          = "9999"
-	license_days_source   = "2012/10/6"
+	license_days_source   = "2012/1/10-37/6"
         vehicle_days          = "9999"
-        vehicle_days_source   = "2012/10/6"
-	updated_ymd           = 20130315
+        vehicle_days_source   = "2012/1/10-37/6"
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_10_5_b]
+	[fines.71_2012_ndcp_1_10_37_5_b]
 	name                  = "Tổ chức đua xe trái phép"
 	description           = "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng"
 	fine                  = "30000000-40000000"
-	fine_source           = "2012/10/5/b"
-	updated_ymd           = 20130315
+	fine_source           = "2012/1/10-37/5/b"
+	updated_ymd           = 20130317
 	active_since_ymd      = 20130315
 	active_now            = 1
 

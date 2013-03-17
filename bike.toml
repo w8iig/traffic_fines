@@ -5,6 +5,21 @@ title = "Traffic Fines for Bikes"
 	author = "sondh"
 	reason = "create bike.toml"
 
+
+[changes]
+	[changes.20130315]
+	author = "laplq"
+	reason = "Update fines.34_2010_ndcp_20, fines.34_2010_ndcp_31_1,fines.71_2012_ndcp_10 "
+[changes]
+	[changes.20130317]
+	author = "laplq"
+	reason = "edit update)ymd, update new form"
+
+[changes]
+	[changes.20130318]
+	author = "laplq"
+	reason = "fix indentation eror"
+
 [fines]
 	[fines.test]
 	name                  = "Test Fine"

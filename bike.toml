@@ -5,6 +5,22 @@ title = "Traffic Fines for Bikes"
 	author = "sondh"
 	reason = "create bike.toml"
 
+	[changes.20130314]
+	author = "duongth"
+	reason = "add fine record 71_2012_ndcp_1_8_33_1, 71_2012_ndcp_1_8_33_2_a, 71_2012_ndcp_1_8_33_2_b, 71_2012_ndcp_1_8_33_3"
+
+	[changes.20130315]
+	author = "duongth"
+	reason = "add fine record 71_2012_ndcp_1_8_33_4, 71_2012_ndcp_1_8_33_5, 71_2012_ndcp_1_8_33_6, 71_2012_ndcp_1_8_33_7, record 43_2010_ndcp_12"
+
+	[changes.20130316]
+	author = "duongth"
+	reason = "delete fine record 71_2012_ndcp_1_8_33_6, 43_2010_ndcp_12_2_c, 43_2010_ndcp_12_3, unused properties"
+
+	[changes.20130317]
+	author = "duongth"
+	reason = "update updated_ymd, new format for source"
+
 [fines]
 	[fines.test]
 	name                  = "Test Fine"
@@ -45,182 +61,182 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_1]
+	[fines.71_2012_ndcp_1_8_33_1]
 	name                  = "Tự ý thay đổi nhãn hiệu, màu sơn của xe không đúng với Giấy đăng ký xe"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với chủ xe mô tô, xe gắn máy và các loại xe tương tự mô tô"
 	fine                  = "100000-200000"
-	fine_source           = "2012/8/1"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/1"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_2_a]
+	[fines.71_2012_ndcp_1_8_33_2_a]
 	name                  = "Lắp kính chắn gió, kính cửa của xe không phải là loại kính an toàn"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "300000-500000"
-	fine_source           = "2012/8/2/a"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/2/a"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_2_b]
+	[fines.71_2012_ndcp_1_8_33_2_b]
 	name                  = "Tự ý thay đổi màu sơn của xe không đúng với màu sơn ghi trong Giấy đăng ký xe; không thực hiện đúng quy định về biển số, quy định về kẻ chữ trên thành xe và cửa xe; trừ hành vi vi phạm quy định tại Điểm b Khoản 2 Điều 41 của Nghị định này (Cơ sở đào tạo lái xe sử dụng xe tập lái không có “Giấy phép xe tập lái”, biển xe "Tập lái", không ghi tên cơ sở đào tạo, cơ quan quản lý trực tiếp ở mặt ngoài hai bên cánh cửa hoặc hai bên thành xe theo quy định)"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "300000-500000"
-	fine_source           = "2012/8/2/b"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/2/b"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_3_a]
+	[fines.71_2012_ndcp_1_8_33_3_a]
 	name                  = "Tự ý đục lại số khung, số máy"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
 	fine                  = "800000-1200000"
-	fine_source           = "2012/8/3/a"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/3/a"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_3_b]
+	[fines.71_2012_ndcp_1_8_33_3_b]
 	name                  = "Tẩy xóa, sửa chữa hoặc giả mạo hồ sơ đăng ký xe"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
 	fine                  = "800000-1200000"
-	fine_source           = "2012/8/3/b"
+	fine_source           = "2012/1/8-33/3/b"
 	license_days          = 9999
-	license_days_source   = "2012/8/7/b"
-	updated_ymd           = 20130314
+	license_days_source   = "2012/1/8-33/7/b"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_3_c]
+	[fines.71_2012_ndcp_1_8_33_3_c]
 	name                  = "Tự ý thay đổi khung, máy, hình dáng, kích thước của xe"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
 	fine                  = "800000-1200000"
-	fine_source           = "2012/8/3/c"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/3/c"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_3_d]
+	[fines.71_2012_ndcp_1_8_33_3_d]
 	name                  = "Khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số, Giấy đăng ký xe"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
 	fine                  = "800000-1200000"
-	fine_source           = "2012/8/3/d"
+	fine_source           = "2012/1/8-33/3/d"
 	license_days          = 9999
-	license_days_source   = "2012/8/7/b"
-	updated_ymd           = 20130314
+	license_days_source   = "2012/1/8-33/7/b"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_3_dd]
+	[fines.71_2012_ndcp_1_8_33_3_dd]
 	name                  = "Giao xe hoặc để cho người không đủ điều kiện theo quy định của pháp luật điều khiển xe tham gia giao thông"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
 	fine                  = "800000-1200000"
-	fine_source           = "2012/8/3/dd"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/3/dd"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_3_e]
+	[fines.71_2012_ndcp_1_8_33_3_e]
 	name                  = "Không chuyển quyền sở hữu phương tiện theo quy định"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
 	fine                  = "800000-1200000"
-	fine_source           = "2012/8/3/e"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/3/e"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_3_g]
+	[fines.71_2012_ndcp_1_8_33_3_g]
 	name                  = "Không mua hoặc nộp phí cho phương tiện khi tham gia giao thông theo quy định"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với chủ xe mô tô, xe gắn máy; các loại xe tương tự mô tô"
 	fine                  = "800000-1200000"
-	fine_source           = "2012/8/3/g"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/3/g"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_4_a]
+	[fines.71_2012_ndcp_1_8_33_4_a]
 	name                  = "Tự ý đục lại số khung, số máy"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "2000000-4000000"
-	fine_source           = "2012/8/4/a"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/4/a"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_4_b]
+	[fines.71_2012_ndcp_1_8_33_4_b]
 	name                  = "Tẩy xóa hoặc sửa chữa Giấy đăng ký xe, hồ sơ đăng ký xe, Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường hoặc các loại giấy tờ khác về phương tiện"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "2000000-4000000"
-	fine_source           = "2012/8/4/b"
+	fine_source           = "2012/1/8-33/4/b"
 	license_days          = 9999
-	license_days_source   = "2012/8/7/b"
-	updated_ymd           = 20130314
+	license_days_source   = "2012/1/8-33/7/b"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_4_c]
+	[fines.71_2012_ndcp_1_8_33_4_c]
 	name                  = "Không chấp hành việc thu hồi Giấy đăng ký xe; biển số xe; Sổ chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông cơ giới đường bộ theo quy định"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "2000000-4000000"
-	fine_source           = "2012/8/4/c"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/4/c"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_4_d]
+	[fines.71_2012_ndcp_1_8_33_4_d]
 	name                  = "Vẽ, dán quảng cáo trên xe không đúng quy định"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "2000000-4000000"
-	fine_source           = "2012/8/4/d"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/4/d"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_4_dd]
+	[fines.71_2012_ndcp_1_8_33_4_dd]
 	name                  = "Không làm thủ tục đổi lại Giấy đăng ký xe khi xe đã được cải tạo"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "2000000-4000000"
-	fine_source           = "2012/8/4/dd"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/4/dd"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_4_e]
+	[fines.71_2012_ndcp_1_8_33_4_e]
 	name                  = "Giao xe hoặc để cho người không đủ điều kiện theo quy định của pháp luật điều khiển xe tham gia giao thông"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "2000000-4000000"
-	fine_source           = "2012/8/4/e"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/4/e"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_4_g]
+	[fines.71_2012_ndcp_1_8_33_4_g]
 	name                  = "Khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số, Giấy đăng ký xe"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "2000000-4000000"
-	fine_source           = "2012/8/4/g"
+	fine_source           = "2012/1/8-33/4/g"
 	license_days          = 9999
-	license_days_source   = "2012/8/7/b"
-	updated_ymd           = 20130314
+	license_days_source   = "2012/1/8-33/7/b"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_5_a]
+	[fines.71_2012_ndcp_1_8_33_5_a]
 	name                  = "Thuê, mượn linh kiện, phụ kiện của xe ô tô khi kiểm định"
 	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
 	fine                  = "4000000-6000000"
-	fine_source           = "2012/8/5/a"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/5/a"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_8_5_b]
+	[fines.71_2012_ndcp_1_8_33_5_b]
 	name                  = "Đưa xe cơ giới, xe máy chuyên dùng không có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định ra tham gia giao thông"
 	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
 	fine                  = "4000000-6000000"
-	fine_source           = "2012/8/5/b"
-	updated_ymd           = 20130314
+	fine_source           = "2012/1/8-33/5/b"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
@@ -229,7 +245,7 @@ title = "Traffic Fines for Bikes"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng"
 	fine                  = "40000-60000"
 	fine_source           = "2010/12/1/a"
-	updated_ymd           = 20130314
+	updated_ymd           = 20130315
 	active_since_ymd      = 20130314
 	active_now            = 1
 
@@ -239,8 +255,8 @@ title = "Traffic Fines for Bikes"
 	fine                  = "40000-60000"
 	fine_source           = "2010/12/1/b"
 	fine_big_city         = "60000-80000"
-	fine_big_city_source  = "2012/13/46/1"
-	updated_ymd           = 20130314
+	fine_big_city_source  = "2012/1/13-46/1"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
@@ -250,8 +266,8 @@ title = "Traffic Fines for Bikes"
 	fine                  = "40000-60000"
 	fine_source           = "2010/12/1/c"
 	fine_big_city         = "60000-80000"
-	fine_big_city_source  = "2012/13/46/1"
-	updated_ymd           = 20130314
+	fine_big_city_source  = "2012/1/13-46/1"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
@@ -261,8 +277,8 @@ title = "Traffic Fines for Bikes"
 	fine                  = "60000-80000"
 	fine_source           = "2010/12/2/a"
 	fine_big_city         = "80000-120000"
-	fine_big_city_source  = "2012/13/46/2"
-	updated_ymd           = 20130314
+	fine_big_city_source  = "2012/1/13-46/2"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1
 
@@ -272,7 +288,7 @@ title = "Traffic Fines for Bikes"
 	fine                  = "60000-80000"
 	fine_source           = "2010/12/2/b"
 	fine_big_city         = "80000-120000"
-	fine_big_city_source  = "2012/13/46/2"
-	updated_ymd           = 20130314
+	fine_big_city_source  = "2012/1/13-46/2"
+	updated_ymd           = 20130316
 	active_since_ymd      = 20130314
 	active_now            = 1

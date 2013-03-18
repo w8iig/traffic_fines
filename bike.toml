@@ -16,11 +16,11 @@ title = "Traffic Fines for Bikes"
 
 	[changes.20130315_duongth]
 	author = "duongth"
-	reason = "add fine record 71_2012_ndcp_1_8_33_4, 71_2012_ndcp_1_8_33_5, 71_2012_ndcp_1_8_33_6, 71_2012_ndcp_1_8_33_7, record 43_2010_ndcp_12"
+	reason = "add fine record 71_2012_ndcp_1_8_33_4, 71_2012_ndcp_1_8_33_5, 71_2012_ndcp_1_8_33_6, 71_2012_ndcp_1_8_33_7, record 34_2010_ndcp_12"
 
 	[changes.20130316_duongth]
 	author = "duongth"
-	reason = "delete fine record 71_2012_ndcp_1_8_33_6, 43_2010_ndcp_12_2_c, 43_2010_ndcp_12_3, unused properties"
+	reason = "delete fine record 71_2012_ndcp_1_8_33_6, 34_2010_ndcp_12_2_c, 34_2010_ndcp_12_3, unused properties"
 
 	[changes.20130317_duongth]
 	author = "duongth"
@@ -241,7 +241,7 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.43_2010_ndcp_12_1_a]
+	[fines.34_2010_ndcp_12_1_a]
 	name                  = "Không đi đúng phần đường quy định"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng"
 	fine                  = "40000-60000"
@@ -250,7 +250,7 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.43_2010_ndcp_12_1_b]
+	[fines.34_2010_ndcp_12_1_b]
 	name                  = "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng"
 	fine                  = "40000-60000"
@@ -261,7 +261,7 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.43_2010_ndcp_12_1_c]
+	[fines.34_2010_ndcp_12_1_c]
 	name                  = "Không chấp hành hiệu lệnh của người điều khiển giao thông, người kiểm soát giao thông"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng"
 	fine                  = "40000-60000"
@@ -272,7 +272,7 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.43_2010_ndcp_12_2_a]
+	[fines.34_2010_ndcp_12_2_a]
 	name                  = "Mang, vác vật cồng kềnh gây cản trở giao thông"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
@@ -283,7 +283,7 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.43_2010_ndcp_12_2_b]
+	[fines.34_2010_ndcp_12_2_b]
 	name                  = "Vượt qua dải phân cách; đi qua đường không đúng nơi quy định hoặc không bảo đảm an toàn"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
@@ -391,7 +391,7 @@ title = "Traffic Fines for Bikes"
 	name                  = "Điều khiển xe tự sản xuất, lắp ráp"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
 	fine                  = "800000-1000000"
-	fine_source           = "http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=1&mode=detail&document_id=94320"
+	fine_source           = "2010/20/4/b"
 	license_days          = 60
 	license_days_source   = "2010/20/5/d"
 	vehicle_days          = 9999

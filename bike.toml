@@ -5,10 +5,6 @@ title = "Traffic Fines for Bikes"
 	author = "sondh"
 	reason = "create bike.toml"
 
-	[changes.20130314]
-	author = "duongth"
-	reason = "add fine record 71_2012_ndcp_1_8_33_1, 71_2012_ndcp_1_8_33_2_a, 71_2012_ndcp_1_8_33_2_b, 71_2012_ndcp_1_8_33_3"
-
 	[changes.20130315]
 	author = "duongth"
 	reason = "add fine record 71_2012_ndcp_1_8_33_4, 71_2012_ndcp_1_8_33_5, 71_2012_ndcp_1_8_33_6, 71_2012_ndcp_1_8_33_7, record 43_2010_ndcp_12"
@@ -80,7 +76,7 @@ title = "Traffic Fines for Bikes"
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_8_33_2_b]
-	name                  = "Tự ý thay đổi màu sơn của xe không đúng với màu sơn ghi trong Giấy đăng ký xe; không thực hiện đúng quy định về biển số, quy định về kẻ chữ trên thành xe và cửa xe; trừ hành vi vi phạm quy định tại Điểm b Khoản 2 Điều 41 của Nghị định này (Cơ sở đào tạo lái xe sử dụng xe tập lái không có “Giấy phép xe tập lái”, biển xe "Tập lái", không ghi tên cơ sở đào tạo, cơ quan quản lý trực tiếp ở mặt ngoài hai bên cánh cửa hoặc hai bên thành xe theo quy định)"
+	name                  = "Tự ý thay đổi màu sơn của xe không đúng với màu sơn ghi trong Giấy đăng ký xe; không thực hiện đúng quy định về biển số, quy định về kẻ chữ trên thành xe và cửa xe; trừ hành vi vi phạm quy định tại Điểm b Khoản 2 Điều 41 của Nghị định này (Cơ sở đào tạo lái xe sử dụng xe tập lái không có \"Giấy phép xe tập lái\", biển xe \"Tập lái\", không ghi tên cơ sở đào tạo, cơ quan quản lý trực tiếp ở mặt ngoài hai bên cánh cửa hoặc hai bên thành xe theo quy định)"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
 	fine                  = "300000-500000"
 	fine_source           = "2012/1/8-33/2/b"

@@ -68,19 +68,6 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_10_37_4]
-	name                  = "Đua xe ô tô trái phép"
-	description           = "Phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng"
-	fine                  = "10000000-20000000"
-	fine_source           = "2012/1/10-37/4"
-	license_days          = 9999
-	license_days_source   = "2012/1/10-37/4"
-	vehicle_days 	      = 9999
-	vehicle_days_source   = "2012/1/10-37/4"
-	updated_ymd           = 20130318
-	active_since_ymd      = 20130315
-	active_now            = 1
-
 	[fines.71_2012_ndcp_1_10_37_5_a]
 	name                  = "Đua xe ô tô, xe mô tô, xe gắn máy, xe máy điện, xe đạp máy mà chống người thi hành công vụ;"
 	description           = "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng"

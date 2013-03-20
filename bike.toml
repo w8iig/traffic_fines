@@ -476,3 +476,256 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
+	[fines.34_2010_ndcp_11_1_a]
+	name                  = "Không đi bên phải theo chiều đi của mình, đi không đúng phần đường quy định"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/a"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+
+	[fines.34_2010_ndcp_11_1_b]
+	name                  = "Dừng xe đột ngột; chuyển hướng không báo hiệu trước"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/b"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_c]
+	name                  = "Không tuân thủ quy tắc, hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc khi ùn tắc giao thông"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/c"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_d]
+	name                  = "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường. Trừ các hành vi vi phạm quy định tại điểm b khoản 2, điểm e khoản 4 Điều 11"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/d"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_đ]
+	name                  = "Vượt bên phải trong các trường hợp không được phép"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/đ"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_e]
+	name                  = "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị có lề đường"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/e"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_g]
+	name                  = "Để xe ở lòng đường, hè phố trái quy định của pháp luật"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/g"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_h]
+	name                  = "Chạy trong hầm đường bộ không có đèn hoặc vật phản quang; dừng xe, đỗ xe trong hầm không đúng nơi quy định; quay đầu xe trong hầm đường bộ"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/h"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_i]
+	name                  = "Xe đạp, xe đạp máy đi dàn hàng ngang từ ba xe trở lên, xe thô sơ khác đi dàn hàng ngang từ hai xe trở lên"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/i"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_k]
+	name                  = "Người điều khiển xe đạp, xe đạp máy sử dụng ô, điện thoại di động; người ngồi trên xe đạp, xe đạp máy sử dụng ô"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/k"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_1_l]
+	name                  = "Xe thô sơ đi ban đêm không có báo hiệu bằng đèn hoặc vật phản quang"
+	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
+	fine                  = "40000-60000"
+	fine_source           = "2010/11/1/l"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_2_a]
+	name                  = "Đỗ xe ở lòng đường đô thị gây cản trở giao thông, đỗ xe trên đường xe điện, đỗ xe trên cầu gây cản trở giao thông"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/11/2/a"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+
+	[fines.34_2010_ndcp_11_2_b]
+	name                  = "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/11/2/b"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+
+	[fines.34_2010_ndcp_11_2_c]
+	name                  = "Không nhường đường hoặc gây cản trở đối với xe cơ giới xin vượt, gây cản trở xe ưu tiên"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/11/2/c"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_2_d]
+	name                  = "Dùng xe đẩy làm quầy hàng lưu động trên đường, gây cản trở giao thông"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/11/2/d"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_2_đ]
+	name                  = "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/11/2/đ"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_2_e]
+	name                  = "Xe đạp, xe đạp máy, xe xích lô chở quá số người quy định, trừ trường hợp chở người bệnh đi cấp cứu"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/11/2/e"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_2_g]
+	name                  = "Xếp hàng hóa vượt quá giới hạn quy định, không bảo đảm an toàn, gây trở ngại giao thông, che khuất tầm nhìn của người điều khiển"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/11/2/g"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_3_a]
+	name                  = "Điều khiển xe đạp, xe đạp máy buông cả hai tay; chuyển hướng đột ngột trước đầu xe cơ giới đang chạy; dùng chân điều khiển xe đạp, xe đạp máy"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/11/3/a"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+
+	[fines.34_2010_ndcp_11_3_b]
+	name                  = "Không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/11/3/b"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_3_c]
+	name                  = "Người điều khiển hoặc người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh; điều khiển xe kéo theo xe khác, vật khác"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/11/3/c"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_4_a]
+	name                  = "Điều khiển xe lạng lách, đánh võng; đuổi nhau trên đường"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2010/11/4/a"
+	vehicle_days          = "9999"
+	vehicle_days_source   = "2010/11//5"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_4_b]
+	name                  = "Đi xe bằng một bánh đối với xe đạp, xe đạp máy; đi xe bằng hai bánh đối với xe xích lô"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2010/11/4/b"
+	vehicle_days          = "9999"
+	vehicle_days_source   = "2010/11//5"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+
+	[fines.34_2010_ndcp_11_4_c]
+	name                  = "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2010/11/4/c"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+
+	[fines.34_2010_ndcp_11_4_d]
+	name                  = "Người điều khiển, người ngồi trên xe đạp máy không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi tham gia giao thông trên đường bộ"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2010/11/4/d"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+
+	[fines.34_2010_ndcp_11_4_đ]
+	name                  = "Chở người ngồi trên xe đạp máy không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2010/11/4/đ"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_11_4_e]
+	name                  = "Đi vào đường cấm, khu vực cấm; đi ngược chiều đường của đường một chiều; đi vào đường cao tốc, trừ phương tiện phục vụ việc quản lý, bảo trì đường cao tốc"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2010/11/4/e"
+	updated_ymd           = 20130320
+	active_since_ymd      = 20130315
+	active_now            = 1

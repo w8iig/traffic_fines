@@ -258,9 +258,9 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_1_a]
 	name                  = "Không đi bên phải theo chiều đi của mình, đi không đúng phần đường quy định"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/a"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -277,18 +277,18 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_1_c]
 	name                  = "Không tuân thủ quy tắc, hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc khi ùn tắc giao thông"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/c"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
 
 	[fines.34_2010_ndcp_11_1_d]
 	name                  = "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường. Trừ các hành vi vi phạm quy định tại điểm b khoản 2, điểm e khoản 4 Điều 11"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/d"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -313,9 +313,9 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_1_g]
 	name                  = "Để xe ở lòng đường, hè phố trái quy định của pháp luật"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/g"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -358,9 +358,9 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_2_a]
 	name                  = "Đỗ xe ở lòng đường đô thị gây cản trở giao thông, đỗ xe trên đường xe điện, đỗ xe trên cầu gây cản trở giao thông"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/a"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -368,9 +368,9 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_2_b]
 	name                  = "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/b"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -387,9 +387,9 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_2_d]
 	name                  = "Dùng xe đẩy làm quầy hàng lưu động trên đường, gây cản trở giao thông"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/d"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -414,9 +414,9 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_2_g]
 	name                  = "Xếp hàng hóa vượt quá giới hạn quy định, không bảo đảm an toàn, gây trở ngại giao thông, che khuất tầm nhìn của người điều khiển"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/g"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -433,18 +433,18 @@ title = "Traffic Fines for Bikes"
 
 	[fines.34_2010_ndcp_11_3_b]
 	name                  = "Không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông"
-	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
-	fine                  = "80000-100000"
-	fine_source           = "2010/11/3/b"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
 
 	[fines.34_2010_ndcp_11_3_c]
 	name                  = "Người điều khiển hoặc người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh; điều khiển xe kéo theo xe khác, vật khác"
-	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
-	fine                  = "80000-100000"
-	fine_source           = "2010/11/3/c"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/13-45/1/a"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1

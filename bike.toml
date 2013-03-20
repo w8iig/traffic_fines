@@ -22,6 +22,10 @@ title = "Traffic Fines for Bikes"
 	author = "laplq"
 	reason = "Update record fines.71_2012_ndcp_1_5_24"
 
+	[changes.20130320]
+	author = "laplq"
+	reason = "Update fine,fine_sourcasoby 2012/1/13-45/1/a"
+
 
 [fines]
 	[fines.test]

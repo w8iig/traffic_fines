@@ -26,6 +26,10 @@ title = "Traffic Fines for Bikes"
 	author = "laplq"
 	reason = "Update fine,fine_sourcasoby 2012/1/13-45/1/a"
 
+	[changes.20130321]
+	author = "laplq"
+	reason = "Edit đ to dd"
+
 
 [fines]
 	[fines.test]
@@ -297,11 +301,11 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.34_2010_ndcp_11_1_đ]
+	[fines.34_2010_ndcp_11_1_dd]
 	name                  = "Vượt bên phải trong các trường hợp không được phép"
 	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
 	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/đ"
+	fine_source           = "2010/11/1/dd"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -398,11 +402,11 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.34_2010_ndcp_11_2_đ]
+	[fines.34_2010_ndcp_11_2_dd]
 	name                  = "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/đ"
+	fine_source           = "2010/11/2/dd"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -496,11 +500,11 @@ title = "Traffic Fines for Bikes"
 	active_now            = 1
 
 
-	[fines.34_2010_ndcp_11_4_đ]
+	[fines.34_2010_ndcp_11_4_dd]
 	name                  = "Chở người ngồi trên xe đạp máy không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
-	fine_source           = "2010/11/4/đ"
+	fine_source           = "2010/11/4/dd"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1

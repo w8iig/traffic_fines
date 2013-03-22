@@ -52,7 +52,6 @@ title = "Traffic Fines for Bikes"
 	description           = "Some description text"
 	fine                  = "100000-200000"
 	fine_source           = "http://domain.com/source"
-	fine_big_city         = ""
 	fine_big_city_source  = "http://domain.com/source"
 	license_days          = 0
 	license_days_source   = "http://domain.com/source"
@@ -1217,3 +1216,4 @@ title = "Traffic Fines for Bikes"
 	updated_ymd           = 20130321
 	active_since_ymd      = 20130315
 	active_now            = 1
+

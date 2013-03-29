@@ -1221,12 +1221,14 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
 	fine_source           = "2012/1/2-9/5/b"
+	license_days          = 30
+	license_source        = "2012/1/2-9/9/b"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_5_c]
-	name                  = "Vượt xe trong những trường hợp cấm vượt, trừ các hành vi vi phạm quy định tại Điểm h Khoản 4 Điều này"
+	name                  = "Vượt xe trong những trường hợp cấm vượt"
 	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
 	fine_source           = "2012/1/2-9/5/c"
@@ -1234,8 +1236,8 @@ title = "Xe Máy"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_5_d]
-	name                  = "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần; dừng xe, đỗ xe, vượt xe trong hầm đường bộ không đúng nơi quy định; quay đầu xe trong hầm đường bộ"
+	[fines.71_2012_ndcp_1_2_9_5_d/0]
+	name                  = "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần"
 	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
 	fine_source           = "2012/1/2-9/5/d"
@@ -1243,11 +1245,53 @@ title = "Xe Máy"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_5_dd]
-	name                  = "Không tuân thủ hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc nơi ùn tắc giao thông; không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông; không nhường đường hoặc gây cản trở xe ưu tiên"
+	[fines.71_2012_ndcp_1_2_9_5_d/1]
+	name                  = "Dừng xe, đỗ xe, vượt xe trong hầm đường bộ không đúng nơi quy định"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_d/2]
+	name                  = "Quay đầu xe trong hầm đường bộ"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_dd/0]
+	name                  = "Không tuân thủ hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc nơi ùn tắc giao thông"
 	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
 	fine_source           = "2012/1/2-9/5/dd"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_dd/1]
+	name                  = "Không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/dd"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_dd/2]
+	name                  = "Không nhường đường hoặc gây cản trở xe ưu tiên"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/dd"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1257,6 +1301,8 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
 	fine_source           = "2012/1/2-9/6/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1266,24 +1312,74 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
 	fine_source           = "2012/1/2-9/6/b"
+	license_days          = 9999
+	license_source        = "2012/1/2-9/9/d"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_6_c]
-	name                  = "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông; vượt xe hoặc chuyển làn đường trái quy định gây tai nạn giao thông"
+	[fines.71_2012_ndcp_1_2_9_6_c/0]
+	name                  = "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
 	fine_source           = "2012/1/2-9/6/c"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_6_d]
-	name                  = "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn"
+	[fines.71_2012_ndcp_1_2_9_6_c/1]
+	name                  = "Vượt xe hoặc chuyển làn đường trái quy định gây tai nạn giao thông"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/c"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/0]
+	name                  = "Gây tai nạn giao thông không dừng lại"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
 	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/1]
+	name                  = "Gây tai nạn giao thông không giữ nguyên hiện trường"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/2]
+	name                  = "Gây tai nạn giao thông bỏ trốn không đến trình báo với cơ quan có thẩm quyền"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/3]
+	name                  = "Gây tai nạn giao thông không không tham gia cấp cứu người bị nạn"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1293,6 +1389,8 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
 	fine_source           = "2012/1/2-9/6/dd"
+	license_days          = 30
+	license_source        = "2012/1/2-9/9/b"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1302,6 +1400,8 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
 	fine_source           = "2012/1/2-9/6/e"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1311,15 +1411,63 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
 	fine                  = "2000000-3000000"
 	fine_source           = "2012/1/2-9/6/g"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_7_a]
-	name                  = "Buông cả hai tay khi đang điều khiển xe; dùng chân điều khiển xe; ngồi về một bên điều khiển xe; nằm trên yên xe điều khiển xe; thay người điều khiển khi xe đang chạy"
+	[fines.71_2012_ndcp_1_2_9_7_a/0]
+	name                  = "Buông cả hai tay khi đang điều khiển xe"
 	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
 	fine                  = "5000000-7000000"
 	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/1]
+	name                  = "Dùng chân điều khiển xe"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/2]
+	name                  = "Ngồi về một bên điều khiển xe"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/3]
+	name                  = "Nằm trên yên xe điều khiển xe"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/4]
+	name                  = "Thay người điều khiển khi xe đang chạy"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1329,6 +1477,8 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
 	fine                  = "5000000-7000000"
 	fine_source           = "2012/1/2-9/7/b"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1338,6 +1488,8 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
 	fine                  = "5000000-7000000"
 	fine_source           = "2012/1/2-9/7/c"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
@@ -1347,6 +1499,8 @@ title = "Xe Máy"
 	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
 	fine                  = "5000000-7000000"
 	fine_source           = "2012/1/2-9/7/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
 	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1

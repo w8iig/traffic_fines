@@ -1,50 +1,4 @@
-title = "Traffic Fines for Bikes"
-
-[changes]
-
-	[changes.20130315_laplq]
-	author = "laplq"
-	reason = "Update fines.34_2010_ndcp_20, fines.34_2010_ndcp_31_1,fines.71_2012_ndcp_10 "
-
-	[changes.20130317_laplq]
-	author = "laplq"
-	reason = "edit update)ymd, update new form"
-
-	[changes.20130318_laplq]
-	author = "laplq"
-	reason = "fix indentation eror"
-
-	[changes.20130320_laplq]
-	author = "laplq"
-	reason = "Update record fines.34_2012_ndcp_11"
-
-	[changes.20130320_laplq]
-	author = "laplq"
-	reason = "Update record fines.71_2012_ndcp_1_5_24"
-
-	[changes.20130320_laplq]
-	author = "laplq"
-	reason = "Update fine,fine_sourcasoby 2012/1/13-45/1/a"
-
-	[changes.20130321_laplq]
-	author = "laplq"
-	reason = "Edit đ to dd"
-
-	[changes.20130315_duongth]
-	author = "duongth"
-	reason = "add fine record 71_2012_ndcp_1_8_33_4, 71_2012_ndcp_1_8_33_5, 71_2012_ndcp_1_8_33_6, 71_2012_ndcp_1_8_33_7, record 34_2010_ndcp_12"
-
-	[changes.20130316_duongth]
-	author = "duongth"
-	reason = "delete fine record 71_2012_ndcp_1_8_33_6, 34_2010_ndcp_12_2_c, 34_2010_ndcp_12_3, unused properties"
-
-	[changes.20130317_duongth]
-	author = "duongth"
-	reason = "update updated_ymd, new format for source"
-	
-	[change.20130321_anhnt]
-	author = "anhnt"
-	reason = "change id format"
+title = "Xe Máy"
 
 [fines]
 	[fines.test]
@@ -53,7 +7,6 @@ title = "Traffic Fines for Bikes"
 	fine                  = "100000-200000"
 	fine_source           = "http://domain.com/source"
 	fine_big_city_source  = "http://domain.com/source"
-	license_days          = 0
 	license_days_source   = "http://domain.com/source"
 	vehicle_days          = 0
 	vehicle_days_source   = "http://domain.com/source"
@@ -61,39 +14,39 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 0
 
-	[fines.34_2010_ndcp_20_1_a]
-	name                  = "Không có còi; đèn soi biển số; đèn báo hãm; gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng"
+	[fines.34_2010_ndcp_20_1_a/0]
+	name                  = "Không có còi hoặc có nhưng không có tác dụng"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
 	fine_source           = "2010/20/1/a"
-	updated_ymd           = 20130317
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_8_33_1]
-	name                  = "Tự ý thay đổi nhãn hiệu, màu sơn của xe không đúng với Giấy đăng ký xe"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với chủ xe mô tô, xe gắn máy và các loại xe tương tự mô tô"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/8-33/1"
-	updated_ymd           = 20130316
+	[fines.34_2010_ndcp_20_1_a/1]
+	name                  = "Không có đèn soi biển số hoặc có nhưng không có tác dụng"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/20/1/a"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_8_33_2_a]
-	name                  = "Lắp kính chắn gió, kính cửa của xe không phải là loại kính an toàn"
-	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "300000-500000"
-	fine_source           = "2012/1/8-33/2/a"
-	updated_ymd           = 20130316
+	[fines.34_2010_ndcp_20_1_a/2]
+	name                  = "Không có đèn báo hãm hoặc có nhưng không có tác dụng"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/20/1/a"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_8_33_2_b]
-	name                  = "Tự ý thay đổi màu sơn của xe không đúng với màu sơn ghi trong Giấy đăng ký xe; không thực hiện đúng quy định về biển số, quy định về kẻ chữ trên thành xe và cửa xe; trừ hành vi vi phạm quy định tại Điểm b Khoản 2 Điều 41 của Nghị định này (Cơ sở đào tạo lái xe sử dụng xe tập lái không có \"Giấy phép xe tập lái\", biển xe \"Tập lái\", không ghi tên cơ sở đào tạo, cơ quan quản lý trực tiếp ở mặt ngoài hai bên cánh cửa hoặc hai bên thành xe theo quy định)"
-	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "300000-500000"
-	fine_source           = "2012/1/8-33/2/b"
-	updated_ymd           = 20130316
+	[fines.34_2010_ndcp_20_1_a/3]
+	name                  = "Không có gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/20/1/a"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
@@ -164,82 +117,6 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_8_33_4_a]
-	name                  = "Tự ý đục lại số khung, số máy"
-	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "2000000-4000000"
-	fine_source           = "2012/1/8-33/4/a"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_8_33_4_b]
-	name                  = "Tẩy xóa hoặc sửa chữa Giấy đăng ký xe, hồ sơ đăng ký xe, Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường hoặc các loại giấy tờ khác về phương tiện"
-	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "2000000-4000000"
-	fine_source           = "2012/1/8-33/4/b"
-	license_days          = 9999
-	license_days_source   = "2012/1/8-33/7/b"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_8_33_4_c]
-	name                  = "Không chấp hành việc thu hồi Giấy đăng ký xe; biển số xe; Sổ chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông cơ giới đường bộ theo quy định"
-	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "2000000-4000000"
-	fine_source           = "2012/1/8-33/4/c"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_8_33_4_d]
-	name                  = "Vẽ, dán quảng cáo trên xe không đúng quy định"
-	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "2000000-4000000"
-	fine_source           = "2012/1/8-33/4/d"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_8_33_4_dd]
-	name                  = "Không làm thủ tục đổi lại Giấy đăng ký xe khi xe đã được cải tạo"
-	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "2000000-4000000"
-	fine_source           = "2012/1/8-33/4/dd"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_8_33_4_e]
-	name                  = "Giao xe hoặc để cho người không đủ điều kiện theo quy định của pháp luật điều khiển xe tham gia giao thông"
-	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "2000000-4000000"
-	fine_source           = "2012/1/8-33/4/e"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_8_33_4_g]
-	name                  = "Khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số, Giấy đăng ký xe"
-	description           = "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự ô tô"
-	fine                  = "2000000-4000000"
-	fine_source           = "2012/1/8-33/4/g"
-	license_days          = 9999
-	license_days_source   = "2012/1/8-33/7/b"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_8_33_5_a]
-	name                  = "Thuê, mượn linh kiện, phụ kiện của xe ô tô khi kiểm định"
-	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
-	fine                  = "4000000-6000000"
-	fine_source           = "2012/1/8-33/5/a"
-	updated_ymd           = 20130316
-	active_since_ymd      = 20130314
-	active_now            = 1
-
 	[fines.71_2012_ndcp_1_8_33_5_b]
 	name                  = "Đưa xe cơ giới, xe máy chuyên dùng không có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định ra tham gia giao thông"
 	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
@@ -291,23 +168,52 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.34_2010_ndcp_12_2_b]
-	name                  = "Vượt qua dải phân cách; đi qua đường không đúng nơi quy định hoặc không bảo đảm an toàn"
+	[fines.34_2010_ndcp_12_2_b/0]
+	name                  = "Vượt qua dải phân cách"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
 	fine_source           = "2010/12/2/b"
 	fine_big_city         = "80000-120000"
 	fine_big_city_source  = "2012/1/13-46/2"
-	updated_ymd           = 20130316
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130314
 	active_now            = 1
 
-	[fines.34_2010_ndcp_20_1_b]
-	name                  = "Gắn biển số không đúng quy định; biển số không rõ chữ, số; biển số bị bẻ cong, bị che lấp, bị hỏng"
+	[fines.34_2010_ndcp_12_2_b/1]
+	name                  = "Đi qua đường không đúng nơi quy định hoặc không bảo đảm an toàn"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2010/12/2/b"
+	fine_big_city         = "80000-120000"
+	fine_big_city_source  = "2012/1/13-46/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.34_2010_ndcp_20_1_b/0]
+	name                  = "Gắn biển số không đúng quy định"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
 	fine                  = "80000-100000"
 	fine_source           = "2010/20/1/b"
-	updated_ymd           = 20130317
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_20_1_b/1]
+	name                  = "Gắn biển số không rõ chữ, số"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/20/1/b"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_20_1_b/2]
+	name                  = "Gắn biển số bị bẻ cong, bị che lấp, bị hỏng"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
+	fine                  = "80000-100000"
+	fine_source           = "2010/20/1/b"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -367,25 +273,69 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.34_2010_ndcp_20_3_b]
-	name                  = "Sử dụng Giấy đăng ký xe đã bị tẩy xóa; sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe hoặc không do cơ quan có thẩm quyền cấp"
+	[fines.34_2010_ndcp_20_3_b/0]
+	name                  = "Sử dụng Giấy đăng ký xe đã bị tẩy xóa"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
 	fine                  = "300000-500000"
 	fine_source           = "2010/20/3/b"
 	vehicle_days          = 10
 	vehicle_days_source   = "2012/1/15-54/1/e"
-	updated_ymd           = 20130317
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.34_2010_ndcp_20_3_c]
+	[fines.34_2010_ndcp_20_3_b/1]
+	name                  = "Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe hoặc không do cơ quan có thẩm quyền cấp"
+	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
+	fine                  = "300000-500000"
+	fine_source           = "2010/20/3/b"
+	vehicle_days          = 10
+	vehicle_days_source   = "2012/1/15-54/1/e"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_20_3_b/2]
+	name                  = "Sử dụng Giấy đăng ký xe không do cơ quan có thẩm quyền cấp"
+	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
+	fine                  = "300000-500000"
+	fine_source           = "2010/20/3/b"
+	vehicle_days          = 10
+	vehicle_days_source   = "2012/1/15-54/1/e"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_20_3_c/0]
 	name                  = "Không gắn biển số (nếu có quy định phải gắn biển số); gắn biển số không đúng với số hoặc ký hiệu trong Giấy đăng ký; biển số không do cơ quan có thẩm quyền cấp"
 	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
 	fine                  = "300000-500000"
 	fine_source           = "2010/20/3/c"
 	vehicle_days          = 10
 	vehicle_days_source   = "2012/1/15-54/1/e"
-	updated_ymd           = 20130317
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_20_3_c/1]
+	name                  = "Gắn biển số không đúng với số hoặc ký hiệu trong Giấy đăng ký"
+	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
+	fine                  = "300000-500000"
+	fine_source           = "2010/20/3/c"
+	vehicle_days          = 10
+	vehicle_days_source   = "2012/1/15-54/1/e"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.34_2010_ndcp_20_3_c/2]
+	name                  = "Gắn biển số không do cơ quan có thẩm quyền cấp"
+	description           = "Phạt tiền từ 300.000 đồng đến 500.000 đồng, tịch thu Giấy đăng ký, biển số không đúng quy định"
+	fine                  = "300000-500000"
+	fine_source           = "2010/20/3/c"
+	vehicle_days          = 10
+	vehicle_days_source   = "2012/1/15-54/1/e"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -414,7 +364,7 @@ title = "Traffic Fines for Bikes"
 	active_now            = 1
 
 	[fines.34_2010_ndcp_31_1]
-	name                  = "Điều khiển xe mô tô, xe gắn máy, xe thô sơ chở hành khách, hàng hóa không có biển hiệu hoặc trang phục theo quy định"
+	name                  = "Không có biển hiệu hoặc trang phục theo quy định"
 	description           = "Cảnh cáo hoặc phạt tiền từ 40.000 đồng đến 60.000 đồng "
 	fine                  = "40000-60000"
 	fine_source           = "2010/31/1"
@@ -422,23 +372,21 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_10_37_1_a]
-	name                  = "Tụ tập để cổ vũ, kích động hành vi điều khiển xe chạy quá tốc độ quy định, lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép;"
+	[fines.71_2012_ndcp_1_10_37_1_a/0]
+	name                  = "Tụ tập để cổ vũ, kích động hành vi điều khiển xe chạy quá tốc độ quy định"
 	description           = "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng "
 	fine                  = "1000000-2000000"
 	fine_source           = "2012/1/10-37/1/a"
-	updated_ymd           = 20130318
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
-
-	[fines.71_2012_ndcp_1_10_37_1_b]
-	name                  = "Đua xe đạp, đua xe đạp máy, đua xe xích lô, đua xe súc vật kéo, cưỡi súc vật chạy đua trái phép trên đường giao thông"
-	description           = "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng, tịch thu xe (trừ xe bị chiếm đoạt, súc vật kéo, cưỡi)"
+	
+	[fines.71_2012_ndcp_1_10_37_1_a/]
+	name                  = "Lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép"
+	description           = "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng "
 	fine                  = "1000000-2000000"
-	fine_source           = "2012/1/10-37/1/b"
-	vehicle_days          = "9999"
-	vehicle_days_source   = "2012/1/10-37/6"
-	updated_ymd           = 20130317
+	fine_source           = "2012/1/10-37/1/a"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -452,7 +400,7 @@ title = "Traffic Fines for Bikes"
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_10_37_3]
-	name                  = "Đua xe mô tô, xe gắn máy, xe máy điện trái phép"
+	name                  = "Đua xe trái phép"
 	description           = "Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "10000000-20000000"
 	fine_source           = "2012/1/10-37/3"
@@ -464,21 +412,8 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_10_37_4]
-	name                  = "Đua xe ô tô trái phép"
-	description           = "Phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
-	fine                  = "20000000-30000000"
-	fine_source           = "2012/1/10-37/4"
-	license_days          = "9999"
-	license_days_source   = "2012/1/10-37/6"
-	vehicle_days          = "9999"
-	vehicle_days_source   = "2012/1/10-37/6"
-	updated_ymd           = 20130317
-	active_since_ymd      = 20130315
-	active_now            = 1
-
 	[fines.71_2012_ndcp_1_10_37_5_a]
-	name                  = "Đua xe ô tô, xe mô tô, xe gắn máy, xe máy điện, xe đạp máy mà chống người thi hành công vụ"
+	name                  = "Đua xe mà chống người thi hành công vụ"
 	description           = "Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng, tước quyền sử dụng Giấy phép lái xe không thời hạn và tịch thu xe (trừ xe bị chiếm đoạt)"
 	fine                  = "30000000-40000000"
 	fine_source           = "2012/1/10-37/5/a"
@@ -499,282 +434,35 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.34_2010_ndcp_11_1_a]
-	name                  = "Không đi bên phải theo chiều đi của mình, đi không đúng phần đường quy định"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_b]
-	name                  = "Dừng xe đột ngột; chuyển hướng không báo hiệu trước"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/b"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_c]
-	name                  = "Không tuân thủ quy tắc, hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc khi ùn tắc giao thông"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_d]
-	name                  = "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường. Trừ các hành vi vi phạm quy định tại điểm b khoản 2, điểm e khoản 4 Điều 11"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_dd]
-	name                  = "Vượt bên phải trong các trường hợp không được phép"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/dd"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_e]
-	name                  = "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị có lề đường"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/e"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_g]
-	name                  = "Để xe ở lòng đường, hè phố trái quy định của pháp luật"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_h]
-	name                  = "Chạy trong hầm đường bộ không có đèn hoặc vật phản quang; dừng xe, đỗ xe trong hầm không đúng nơi quy định; quay đầu xe trong hầm đường bộ"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/h"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_i]
-	name                  = "Xe đạp, xe đạp máy đi dàn hàng ngang từ ba xe trở lên, xe thô sơ khác đi dàn hàng ngang từ hai xe trở lên"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/i"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_k]
-	name                  = "Người điều khiển xe đạp, xe đạp máy sử dụng ô, điện thoại di động; người ngồi trên xe đạp, xe đạp máy sử dụng ô"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/k"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_1_l]
-	name                  = "Xe thô sơ đi ban đêm không có báo hiệu bằng đèn hoặc vật phản quang"
-	description           = "Phạt tiền từ 40.000 đồng đến 60.000 đồng"
-	fine                  = "40000-60000"
-	fine_source           = "2010/11/1/l"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_2_a]
-	name                  = "Đỗ xe ở lòng đường đô thị gây cản trở giao thông, đỗ xe trên đường xe điện, đỗ xe trên cầu gây cản trở giao thông"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_2_b]
-	name                  = "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_2_c]
-	name                  = "Không nhường đường hoặc gây cản trở đối với xe cơ giới xin vượt, gây cản trở xe ưu tiên"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/c"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_2_d]
-	name                  = "Dùng xe đẩy làm quầy hàng lưu động trên đường, gây cản trở giao thông"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_2_dd]
-	name                  = "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/dd"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_2_e]
-	name                  = "Xe đạp, xe đạp máy, xe xích lô chở quá số người quy định, trừ trường hợp chở người bệnh đi cấp cứu"
-	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
-	fine                  = "60000-80000"
-	fine_source           = "2010/11/2/e"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_2_g]
-	name                  = "Xếp hàng hóa vượt quá giới hạn quy định, không bảo đảm an toàn, gây trở ngại giao thông, che khuất tầm nhìn của người điều khiển"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_3_a]
-	name                  = "Điều khiển xe đạp, xe đạp máy buông cả hai tay; chuyển hướng đột ngột trước đầu xe cơ giới đang chạy; dùng chân điều khiển xe đạp, xe đạp máy"
-	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng"
-	fine                  = "80000-100000"
-	fine_source           = "2010/11/3/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_3_b]
-	name                  = "Không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_3_c]
-	name                  = "Người điều khiển hoặc người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh; điều khiển xe kéo theo xe khác, vật khác"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2012/1/13-45/1/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_4_a]
-	name                  = "Điều khiển xe lạng lách, đánh võng; đuổi nhau trên đường"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2010/11/4/a"
-	vehicle_days          = "9999"
-	vehicle_days_source   = "2010/11//5"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_4_b]
-	name                  = "Đi xe bằng một bánh đối với xe đạp, xe đạp máy; đi xe bằng hai bánh đối với xe xích lô"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2010/11/4/b"
-	vehicle_days          = "9999"
-	vehicle_days_source   = "2010/11//5"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_4_c]
-	name                  = "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2010/11/4/c"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_4_d]
-	name                  = "Người điều khiển, người ngồi trên xe đạp máy không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi tham gia giao thông trên đường bộ"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2010/11/4/d"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_4_dd]
-	name                  = "Chở người ngồi trên xe đạp máy không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2010/11/4/dd"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.34_2010_ndcp_11_4_e]
-	name                  = "Đi vào đường cấm, khu vực cấm; đi ngược chiều đường của đường một chiều; đi vào đường cao tốc, trừ phương tiện phục vụ việc quản lý, bảo trì đường cao tốc"
-	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
-	fine                  = "100000-200000"
-	fine_source           = "2010/11/4/e"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_5_24_1]
-	name                  = "Từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự mô tô hoặc điều khiển xe ô tô, máy kéo và các loại xe tương tự ô tô"
-	description           = "Phạt cảnh cáo"
-	fine                  = "0"
-	fine_source           = "2012/1/5-24/1"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
 	[fines.71_2012_ndcp_1_5_24_2_a]
-	name                  = "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự mô tô và các loại xe tương tự xe gắn máy không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực"
+	name                  = "Không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực"
 	description           = "Phạt tiền từ 80.000 đồng đến 120.000 đồng"
 	fine                  = "80000-120000"
 	fine_source           = "2012/1/5-24/2/a"
-	updated_ymd           = 20130320
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_5_24_2_b]
-	name                  = "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự mô tô và các loại xe tương tự xe gắn máy không mang theo Giấy đăng ký xe, Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (nếu có quy định phải kiểm định)"
+	[fines.71_2012_ndcp_1_5_24_2_b/0]
+	name                  = "Không mang theo Giấy đăng ký xe"
 	description           = "Phạt tiền từ 80.000 đồng đến 120.000 đồng"
 	fine                  = "80000-120000"
 	fine_source           = "2012/1/5-24/2/b"
-	updated_ymd           = 20130320
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_5_24_2_b/1]
+	name                  = "Không mang Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (nếu có quy định phải kiểm định)"
+	description           = "Phạt tiền từ 80.000 đồng đến 120.000 đồng"
+	fine                  = "80000-120000"
+	fine_source           = "2012/1/5-24/2/b"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_5_24_2_c]
-	name                  = "Người điều khiển xe mô tô không mang theo Giấy phép lái xe"
+	name                  = "Không mang theo Giấy phép lái xe"
 	description           = "Phạt tiền từ 80.000 đồng đến 120.000 đồng"
 	fine                  = "80000-120000"
 	fine_source           = "2012/1/5-24/2/c"
@@ -783,19 +471,10 @@ title = "Traffic Fines for Bikes"
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_5_24_3_a]
-	name                  = "Người điều khiển xe mô tô, các loại xe tương tự mô tô không có Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (nếu có quy định phải kiểm định) hoặc có nhưng đã hết hạn"
+	name                  = "Không có Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (nếu có quy định phải kiểm định) hoặc có nhưng đã hết hạn"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
 	fine                  = "200000-400000"
 	fine_source           = "2012/1/5-24/3/a"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_5_24_3_b]
-	name                  = "Người điều khiển xe ô tô, máy kéo không mang theo Giấy đăng ký xe, Giấy phép lái xe, Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (nếu có quy định phải kiểm định)"
-	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
-	fine                  = "200000-400000"
-	fine_source           = "2012/1/5-24/3/b"
 	updated_ymd           = 20130320
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -809,66 +488,103 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_5_24_4_b]
-	name                  = "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự ô tô không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực"
-	description           = "Phạt tiền từ 400.000 đồng đến 600.000 đồng"
-	fine                  = "400000-600000"
-	fine_source           = "2012/1/5-24/4/b"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_5_24_4_c]
-	name                  = "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự ô tô có Giấy phép lái xe nhưng đã hết hạn sử dụng dưới 6 (sáu) tháng"
-	description           = "Phạt tiền từ 400.000 đồng đến 600.000 đồng"
-	fine                  = "400000-600000"
-	fine_source           = "2012/1/5-24/4/c"
-	updated_ymd           = 20130320
-	active_since_ymd      = 20130315
-	active_now            = 1
-
-	[fines.71_2012_ndcp_1_5_24_5]
-	name                  = "Điều khiển xe mô tô không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa. Không áp dụng với e mô tô có dung tích xi lanh từ 175 cm3 trở lên"
+	[fines.71_2012_ndcp_1_5_24_5/0]
+	name                  = "Không có Giấy phép lái xe (dung tích xi lanh < 175 cm3)"
 	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng"
 	fine                  = "800000-1200000"
 	fine_source           = "2012/1/5-24/5"
 	license_days          = 9999
 	license_days_source   = "2012/1/5-24/8"
-	updated_ymd           = 20130320
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
-	
-	[fines.71_2012_ndcp_1_5_24_7_a]
-	name                  = "Điều khiển xe mô tô có dung tích xi lanh từ 175 cm3 trở lên, có Giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển hoặc đã hết hạn sử dụng từ 6 (sáu) tháng trở lên"
+
+	[fines.71_2012_ndcp_1_5_24_5/1]
+	name                  = "Sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp (dung tích xi lanh < 175 cm3)"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/1/5-24/5"
+	license_days          = 9999
+	license_days_source   = "2012/1/5-24/8"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_5_24_5/2]
+	name                  = "Sử dụng Giấy phép lái xe bị tẩy xóa (dung tích xi lanh < 175 cm3)"
+	description           = "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng"
+	fine                  = "800000-1200000"
+	fine_source           = "2012/1/5-24/5"
+	license_days          = 9999
+	license_days_source   = "2012/1/5-24/8"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_5_24_7_a/0]
+	name                  = "Có Giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển (dung tích xi lanh >= 175 cm3)"
 	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
 	fine                  = "4000000-6000000"
 	fine_source           = "2012/1/5-24/7/a"
 	license_days          = 9999
 	license_days_source   = "2012/1/5-24/8"
-	updated_ymd           = 20130320
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_5_24_7_b]
-	name                  = "Điều khiển xe mô tô có dung tích xi lanh từ 175 cm3 trở lên, không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa"
+	[fines.71_2012_ndcp_1_5_24_7_a/1]
+	name                  = "Sử dụng Giấy phép lái xe hết hạn sử dụng từ 6 (sáu) tháng trở lên (dung tích xi lanh >= 175 cm3)"
+	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
+	fine                  = "4000000-6000000"
+	fine_source           = "2012/1/5-24/7/a"
+	license_days          = 9999
+	license_days_source   = "2012/1/5-24/8"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_5_24_7_b/0]
+	name                  = "Không có Giấy phép lái xe (dung tích xi lanh >= 175 cm3)"
 	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
 	fine                  = "4000000-6000000"
 	fine_source           = "2012/1/5-24/7/b"
 	license_days          = 9999
 	license_days_source   = "2012/1/5-24/8"
-	updated_ymd           = 20130320
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_5_24_7_b/1]
+	name                  = "Sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp (dung tích xi lanh >= 175 cm3)"
+	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
+	fine                  = "4000000-6000000"
+	fine_source           = "2012/1/5-24/7/b"
+	license_days          = 9999
+	license_days_source   = "2012/1/5-24/8"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_5_24_7_b/2]
+	name                  = "Sử dụng Giấy phép lái xe bị tẩy xóa (dung tích xi lanh >= 175 cm3)"
+	description           = "Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng"
+	fine                  = "4000000-6000000"
+	fine_source           = "2012/1/5-24/7/b"
+	license_days          = 9999
+	license_days_source   = "2012/1/5-24/8"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_1_a]
-	name                  = "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, trừ các hành vi vi phạm quy định tại Điểm a, Điểm đ, Điểm h Khoản 2; Điểm c, Điểm đ, Điểm h Khoản 3; Điểm c, Điểm d, Điểm e, Điểm g, Điểm i Khoản 4; Điểm a, Điểm c, Điểm d Khoản 5; Điểm đ Khoản 6; Điểm d Khoản 7 Điều này"
+	name                  = "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng "
 	fine                  = "60000-80000"
 	fine_source           = "2012/1/2-9/1/a"
 	fine_big_city         = "100000-200000"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
-	active_now            = 1	
+	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_1_b]
 	name                  = "Không có báo hiệu xin vượt trước khi vượt"
@@ -877,46 +593,55 @@ title = "Traffic Fines for Bikes"
 	fine_source           = "2012/1/2-9/1/b"
 	updated_ymd           = 20130321
 	active_since_ymd      = 20130315
-	active_now            = 1	
-	
-	[fines.71_2012_ndcp_1_2_9_1_c]
-	name                  = "Không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu “Cự ly tối thiểu giữa hai xe”"
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_1_c/0]
+	name                  = "Không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
 	fine_source           = "2012/1/2-9/1/c"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
-	active_now            = 1		
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_1_c/1]
+	name                  = "Không giữ khoảng cách theo quy định của biển báo hiệu \"Cự ly tối thiểu giữa hai xe\""
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2012/1/2-9/1/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_1_d]
-	name                  = "Chuyển hướng không nhường quyền đi trước cho: Người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường dành cho người đi bộ; xe thô sơ đang đi trên phần đường dành cho xe thô sơ;"
+	name                  = "Chuyển hướng không nhường quyền đi trước"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
 	fine_source           = "2012/1/2-9/1/d"
 	updated_ymd           = 20130321
 	active_since_ymd      = 20130315
-	active_now            = 1	
+	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_1_dd]
-	name                  = "Chuyển hướng không nhường đường cho: Các xe đi ngược chiều; người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường cho người đi bộ;"
+	name                  = "Chuyển hướng không nhường đường"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
 	fine_source           = "2012/1/2-9/1/dd"
 	updated_ymd           = 20130321
 	active_since_ymd      = 20130315
-	active_now            = 1	
+	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_1_e]
-	name                  = "Lùi xe mô tô ba bánh không quan sát hoặc không có tín hiệu báo trước;"
+	name                  = "Lùi xe mô tô ba bánh không quan sát hoặc không có tín hiệu báo trước"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
 	fine_source           = "2012/1/2-9/1/e"
 	updated_ymd           = 20130321
 	active_since_ymd      = 20130315
-	active_now            = 1	
+	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_1_g]
-	name                  = "Dùng đèn chiếu xa khi tránh nhau;"
+	name                  = "Dùng đèn chiếu xa khi tránh nhau"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
 	fine_source           = "2012/1/2-9/1/g"
@@ -924,23 +649,61 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_1_h]
-	name                  = "Người đang điều khiển xe sử dụng ô, điện thoại di động, thiết bị âm thanh, trừ thiết bị trợ thính; người ngồi trên xe sử dụng ô."
+	[fines.71_2012_ndcp_1_2_9_1_h/0]
+	name                  = "Người đang điều khiển xe sử dụng ô"
 	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
 	fine                  = "60000-80000"
 	fine_source           = "2012/1/2-9/1/h"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_2_a]
-	name                  = "Chuyển làn đường không đúng nơi được phép hoặc không có tín hiệu báo trước"
+	[fines.71_2012_ndcp_1_2_9_1_h/1]
+	name                  = "Người đang điều khiển xe sử dụng điện thoại di động"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2012/1/2-9/1/h"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_1_h/2]
+	name                  = "Người đang điều khiển xe sử dụng thiết bị âm thanh, trừ thiết bị trợ thính"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2012/1/2-9/1/h"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_1_h/3]
+	name                  = "Người ngồi trên xe sử dụng ô"
+	description           = "Phạt tiền từ 60.000 đồng đến 80.000 đồng"
+	fine                  = "60000-80000"
+	fine_source           = "2012/1/2-9/1/h"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_2_a/0]
+	name                  = "Chuyển làn đường không đúng nơi được phép"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
 	fine                  = "80000-100000"
 	fine_source           = "2012/1/2-9/2/a"
 	fine_big_city         = "100000-200000"
 	fine_big_city_source  = "2012/13/44/1"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_2_a/1]
+	name                  = "Chuyển làn đường không có tín hiệu báo trước"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
+	fine                  = "80000-100000"
+	fine_source           = "2012/1/2-9/2/a"
+	fine_big_city         = "100000-200000"
+	fine_big_city_source  = "2012/13/44/1"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -962,30 +725,57 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_2_d]
-	name                  = "Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn; không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau"
+	[fines.71_2012_ndcp_1_2_9_2_d/0]
+	name                  = "Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
 	fine                  = "80000-100000"
 	fine_source           = "2012/1/2-9/2/d"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_2_dd]
-	name                  = "Tránh xe không đúng quy định; không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật"
+	[fines.71_2012_ndcp_1_2_9_2_d/1]
+	name                  = "Không nhường đường cho xe đi trên đường ưu tiên"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
+	fine                  = "80000-100000"
+	fine_source           = "2012/1/2-9/2/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_2_dd/0]
+	name                  = "Tránh xe không đúng quy định"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
 	fine                  = "80000-100000"
 	fine_source           = "2012/1/2-9/2/dd"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_2_e]
-	name                  = "Bấm còi trong thời gian từ 22 giờ ngày hôm trước đến 5 giờ ngày hôm sau, sử dụng đèn chiếu xa trong đô thị, khu đông dân cư, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định"
+	[fines.71_2012_ndcp_1_2_9_2_dd/1]
+	name                  = "Không nhường đường cho xe đi ngược chiều theo quy định"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
+	fine                  = "80000-100000"
+	fine_source           = "2012/1/2-9/2/dd"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_2_e/0]
+	name                  = "Bấm còi trong thời gian từ 22 giờ ngày hôm trước đến 5 giờ ngày hôm sau"
 	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
 	fine                  = "80000-100000"
 	fine_source           = "2012/1/2-9/2/e"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_2_e/1]
+	name                  = "Sử dụng đèn chiếu xa trong đô thị, khu đông dân cư"
+	description           = "Phạt tiền từ 80.000 đồng đến 100.000 đồng đối với người điều khiển xe"
+	fine                  = "80000-100000"
+	fine_source           = "2012/1/2-9/2/e"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -1043,22 +833,42 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_3_dd]
-	name                  = "Dừng xe, đỗ xe ở lòng đường đô thị gây cản trở giao thông; tụ tập từ 3 (ba) xe trở lên ở lòng đường, trên cầu, trong hầm đường bộ; đỗ, để xe ở lòng đường đô thị, hè phố trái quy định của pháp luật"
+	[fines.71_2012_ndcp_1_2_9_3_dd/0]
+	name                  = "Dừng xe, đỗ xe ở lòng đường đô thị gây cản trở giao thông"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2012/1/2-9/3/dd"
 	fine_big_city         = "300000-500000"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_dd/1]
+	name                  = "Tụ tập từ 3 (ba) xe trở lên ở lòng đường, trên cầu, trong hầm đường bộ"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/dd"
+	fine_big_city         = "300000-500000"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_dd/2]
+	name                  = "Đỗ, để xe ở lòng đường đô thị, hè phố trái quy định của pháp luật"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/dd"
+	fine_big_city         = "300000-500000"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_3_e]
-	name                  = "Bấm còi, rú ga liên tục trong đô thị, khu đông dân cư, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định"
+	name                  = "Bấm còi, rú ga liên tục trong đô thị, khu đông dân cư"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2012/1/2-9/3/e"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -1071,50 +881,165 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_3_h]
-	name                  = "Không thực hiện đúng các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt; dừng xe, đỗ xe trong phạm vi an toàn của đường sắt; dừng xe, đỗ xe trên đường xe điện, điểm dừng đón trả khách của xe buýt, trên cầu, nơi đường bộ giao nhau, trên phần đường dành cho người đi bộ qua đường; dừng xe nơi có biển cấm dừng; đỗ xe tại nơi có biển cấm dừng hoặc biển cấm đỗ"
+	[fines.71_2012_ndcp_1_2_9_3_h/0]
+	name                  = "Không thực hiện đúng các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2012/1/2-9/3/h"
 	fine_big_city         = "300000-500000"
 	fine_big_city_source  = "2012/13/44/2"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_3_i]
-	name                  = "Người điều khiển, người ngồi trên xe không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi tham gia giao thông trên đường bộ"
+	[fines.71_2012_ndcp_1_2_9_3_h/1]
+	name                  = "Dừng xe, đỗ xe trong phạm vi an toàn của đường sắt"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_h/2]
+	name                  = "Dừng xe, đỗ xe trên đường xe điện"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_h/3]
+	name                  = "Dừng xe, đỗ xe tại điểm dừng đón trả khách của xe buýt"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_h/4]
+	name                  = "Dừng xe, đỗ xe trên cầu"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_h/5]
+	name                  = "Dừng xe, đỗ xe nơi đường bộ giao nhau"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_h/6]
+	name                  = "Dừng xe, đỗ xe trên phần đường dành cho người đi bộ qua đường"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_h/7]
+	name                  = "Dừng xe nơi có biển cấm dừng"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_h/8]
+	name                  = "Đỗ xe tại nơi có biển cấm dừng hoặc biển cấm đỗ"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/h"
+	fine_big_city         = "300000-500000"
+	fine_big_city_source  = "2012/13/44/2"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_i/0]
+	name                  = "Người điều khiển, người ngồi trên xe không đội mũ bảo hiểm"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2012/1/2-9/3/i"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_3_k]
-	name                  = "Chở người ngồi trên xe không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật"
+	[fines.71_2012_ndcp_1_2_9_3_i/1]
+	name                  = "Người điều khiển, người ngồi trên xe đội mũ bảo hiểm không cài quai đúng quy cách"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/i"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_k/0]
+	name                  = "Chở người ngồi trên xe không đội mũ bảo hiểm"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2012/1/2-9/3/k"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_3_k/1]
+	name                  = "Chở người ngồi trên xe đội mũ bảo hiểm không cài quai đúng quy cách"
+	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+	fine                  = "100000-200000"
+	fine_source           = "2012/1/2-9/3/k"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_3_l]
-	name                  = "Chở theo 2 (hai) người trên xe, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 14 tuổi, áp giải người có hành vi vi phạm pháp luật"
+	name                  = "Chở theo 2 (hai) người trên xe"
 	description           = "Phạt tiền từ 100.000 đồng đến 200.000 đồng"
 	fine                  = "100000-200000"
 	fine_source           = "2012/1/2-9/3/l"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_4_a]
-	name                  = "Chuyển hướng không giảm tốc độ hoặc không có tín hiệu báo hướng rẽ"
+	[fines.71_2012_ndcp_1_2_9_4_a/0]
+	name                  = "Chuyển hướng không giảm tốc độ"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
 	fine                  = "200000-400000"
 	fine_source           = "2012/1/2-9/4/a"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_4_a/1]
+	name                  = "Chuyển hướng không có tín hiệu báo hướng rẽ"
+	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+	fine                  = "200000-400000"
+	fine_source           = "2012/1/2-9/4/a"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -1123,7 +1048,9 @@ title = "Traffic Fines for Bikes"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
 	fine                  = "200000-400000"
 	fine_source           = "2012/1/2-9/4/b"
-	updated_ymd           = 20130321
+	license_days          = 30
+	license_source        = "2012/1/2-9/9/b"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
@@ -1134,6 +1061,7 @@ title = "Traffic Fines for Bikes"
 	fine_source           = "2012/1/2-9/4/c"
 	fine_big_city         = "400000-800000"
 	license_days          = 30
+	license_source        = "2012/1/2-9/9/b"
 	updated_ymd           = 20130321
 	active_since_ymd      = 20130315
 	active_now            = 1
@@ -1165,16 +1093,36 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_4_g]
-	name                  = "Điều khiển xe không đi bên phải theo chiều đi của mình; đi không đúng phần đường, làn đường quy định hoặc điều khiển xe đi trên hè phố"
+	[fines.71_2012_ndcp_1_2_9_4_g/0]
+	name                  = "Điều khiển xe không đi bên phải theo chiều đi của mình"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
 	fine                  = "200000-400000"
 	fine_source           = "2012/1/2-9/4/g"
 	fine_big_city         = "400000-800000"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
-	
+
+	[fines.71_2012_ndcp_1_2_9_4_g/1]
+	name                  = "Điều khiển xe đi không đúng phần đường, làn đường quy định"
+	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+	fine                  = "200000-400000"
+	fine_source           = "2012/1/2-9/4/g"
+	fine_big_city         = "400000-800000"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_4_g/2]
+	name                  = "Điều khiển xe đi trên hè phố"
+	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+	fine                  = "200000-400000"
+	fine_source           = "2012/1/2-9/4/g"
+	fine_big_city         = "400000-800000"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
 	[fines.71_2012_ndcp_1_2_9_4_h]
 	name                  = "Vượt bên phải trong các trường hợp không được phép"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
@@ -1184,30 +1132,72 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_4_i]
-	name                  = "Đi vào đường cấm, khu vực cấm; đi ngược chiều của đường một chiều, trừ trường hợp xe ưu tiên đang đi làm nhiệm vụ khẩn cấp theo quy định"
+	[fines.71_2012_ndcp_1_2_9_4_i/0]
+	name                  = "Đi vào đường cấm, khu vực cấm"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
 	fine                  = "200000-400000"
 	fine_source           = "2012/1/2-9/4/i"
 	fine_big_city         = "400000-800000"
 	license_days          = 30
-	license_days_source   = "2012/13/44/4/a"
-	updated_ymd           = 20130321
+	license_source        = "2012/1/2-9/9/b"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
-	[fines.71_2012_ndcp_1_2_9_4_k]
-	name                  = "Người điều khiển xe hoặc người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, dẫn dắt súc vật, mang vác vật cồng kềnh; người ngồi trên xe đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái; xếp hàng hóa trên xe vượt quá giới hạn quy định; điều khiển xe kéo theo xe khác, vật khác"
+	[fines.71_2012_ndcp_1_2_9_4_i/1]
+	name                  = "Đi ngược chiều của đường một chiều"
+	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+	fine                  = "200000-400000"
+	fine_source           = "2012/1/2-9/4/i"
+	fine_big_city         = "400000-800000"
+	license_days          = 30
+	license_source        = "2012/1/2-9/9/b"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_4_k/0]
+	name                  = "Người điều khiển xe hoặc người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, dẫn dắt súc vật, mang vác vật cồng kềnh"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
 	fine                  = "200000-400000"
 	fine_source           = "2012/1/2-9/4/k"
 	fine_big_city         = "400000-800000"
-	updated_ymd           = 20130321
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_4_k/1]
+	name                  = "Người ngồi trên xe đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái"
+	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+	fine                  = "200000-400000"
+	fine_source           = "2012/1/2-9/4/k"
+	fine_big_city         = "400000-800000"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_4_k/2]
+	name                  = "Xếp hàng hóa trên xe vượt quá giới hạn quy định"
+	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+	fine                  = "200000-400000"
+	fine_source           = "2012/1/2-9/4/k"
+	fine_big_city         = "400000-800000"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_4_k/3]
+	name                  = "Điều khiển xe kéo theo xe khác, vật khác"
+	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
+	fine                  = "200000-400000"
+	fine_source           = "2012/1/2-9/4/k"
+	fine_big_city         = "400000-800000"
+	updated_ymd           = 20130329
 	active_since_ymd      = 20130315
 	active_now            = 1
 
 	[fines.71_2012_ndcp_1_2_9_4_l]
-	name                  = "Chở hàng vượt trọng tải thiết kế được ghi trong Giấy đăng ký xe đối với loại xe có quy định về trọng tải thiết kế"
+	name                  = "Chở hàng vượt trọng tải thiết kế được ghi trong Giấy đăng ký xe"
 	description           = "Phạt tiền từ 200.000 đồng đến 400.000 đồng"
 	fine                  = "200000-400000"
 	fine_source           = "2012/1/2-9/4/l"
@@ -1217,3 +1207,300 @@ title = "Traffic Fines for Bikes"
 	active_since_ymd      = 20130315
 	active_now            = 1
 
+	[fines.71_2012_ndcp_1_2_9_5_a]
+	name                  = "Điều khiển xe chạy quá tốc độ quy định từ 10 km/h đến 20 km/h"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/a"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_b]
+	name                  = "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/b"
+	license_days          = 30
+	license_source        = "2012/1/2-9/9/b"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_c]
+	name                  = "Vượt xe trong những trường hợp cấm vượt"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_d/0]
+	name                  = "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_d/1]
+	name                  = "Dừng xe, đỗ xe, vượt xe trong hầm đường bộ không đúng nơi quy định"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_d/2]
+	name                  = "Quay đầu xe trong hầm đường bộ"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_dd/0]
+	name                  = "Không tuân thủ hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc nơi ùn tắc giao thông"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/dd"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_dd/1]
+	name                  = "Không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/dd"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_dd/2]
+	name                  = "Không nhường đường hoặc gây cản trở xe ưu tiên"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/dd"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_a]
+	name                  = "Sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_b]
+	name                  = "Điều khiển xe trên đường mà trong cơ thể có chất ma túy"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/b"
+	license_days          = 9999
+	license_source        = "2012/1/2-9/9/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_c/0]
+	name                  = "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/c"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_c/1]
+	name                  = "Vượt xe hoặc chuyển làn đường trái quy định gây tai nạn giao thông"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/c"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/0]
+	name                  = "Gây tai nạn giao thông không dừng lại"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/1]
+	name                  = "Gây tai nạn giao thông không giữ nguyên hiện trường"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/2]
+	name                  = "Gây tai nạn giao thông bỏ trốn không đến trình báo với cơ quan có thẩm quyền"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d/3]
+	name                  = "Gây tai nạn giao thông không không tham gia cấp cứu người bị nạn"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_dd]
+	name                  = "Điều khiển xe chạy quá tốc độ quy định trên 20 km/h"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/dd"
+	license_days          = 30
+	license_source        = "2012/1/2-9/9/b"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_e]
+	name                  = "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/e"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_g]
+	name                  = "Không chấp hành yêu cầu kiểm tra về chất ma túy, nồng độ cồn của người kiểm soát giao thông hoặc người thi hành công vụ"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/g"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/0]
+	name                  = "Buông cả hai tay khi đang điều khiển xe"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/1]
+	name                  = "Dùng chân điều khiển xe"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/2]
+	name                  = "Ngồi về một bên điều khiển xe"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/3]
+	name                  = "Nằm trên yên xe điều khiển xe"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a/4]
+	name                  = "Thay người điều khiển khi xe đang chạy"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_b]
+	name                  = "Điều khiển xe lạng lách hoặc đánh võng trên đường bộ trong, ngoài đô thị"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/b"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_c]
+	name                  = "Điều khiển xe chạy bằng một bánh đối với xe hai bánh, chạy bằng hai bánh đối với xe ba bánh"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/c"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_d]
+	name                  = "Điều khiển xe thành nhóm từ 2 (hai) xe trở lên chạy quá tốc độ quy định"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/d"
+	license_days          = 60
+	license_source        = "2012/1/2-9/9/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1

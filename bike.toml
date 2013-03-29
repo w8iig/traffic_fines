@@ -7,7 +7,6 @@ title = "Xe Máy"
 	fine                  = "100000-200000"
 	fine_source           = "http://domain.com/source"
 	fine_big_city_source  = "http://domain.com/source"
-	license_days          = 0
 	license_days_source   = "http://domain.com/source"
 	vehicle_days          = 0
 	vehicle_days_source   = "http://domain.com/source"
@@ -1206,4 +1205,148 @@ title = "Xe Máy"
 	fine_big_city_source  = "2012/13/44/3"
 	updated_ymd           = 20130321
 	active_since_ymd      = 20130315
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_a]
+	name                  = "Điều khiển xe chạy quá tốc độ quy định từ 10 km/h đến 20 km/h"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/a"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_b]
+	name                  = "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/b"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_c]
+	name                  = "Vượt xe trong những trường hợp cấm vượt, trừ các hành vi vi phạm quy định tại Điểm h Khoản 4 Điều này"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_d]
+	name                  = "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần; dừng xe, đỗ xe, vượt xe trong hầm đường bộ không đúng nơi quy định; quay đầu xe trong hầm đường bộ"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_5_dd]
+	name                  = "Không tuân thủ hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc nơi ùn tắc giao thông; không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông; không nhường đường hoặc gây cản trở xe ưu tiên"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	fine                  = "500000-1000000"
+	fine_source           = "2012/1/2-9/5/dd"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_a]
+	name                  = "Sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/a"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_b]
+	name                  = "Điều khiển xe trên đường mà trong cơ thể có chất ma túy"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/b"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_c]
+	name                  = "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông; vượt xe hoặc chuyển làn đường trái quy định gây tai nạn giao thông"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_d]
+	name                  = "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_dd]
+	name                  = "Điều khiển xe chạy quá tốc độ quy định trên 20 km/h"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/dd"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_e]
+	name                  = "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/e"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_6_g]
+	name                  = "Không chấp hành yêu cầu kiểm tra về chất ma túy, nồng độ cồn của người kiểm soát giao thông hoặc người thi hành công vụ"
+	description           = "Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng"
+	fine                  = "2000000-3000000"
+	fine_source           = "2012/1/2-9/6/g"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_a]
+	name                  = "Buông cả hai tay khi đang điều khiển xe; dùng chân điều khiển xe; ngồi về một bên điều khiển xe; nằm trên yên xe điều khiển xe; thay người điều khiển khi xe đang chạy"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/a"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_b]
+	name                  = "Điều khiển xe lạng lách hoặc đánh võng trên đường bộ trong, ngoài đô thị"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/b"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_c]
+	name                  = "Điều khiển xe chạy bằng một bánh đối với xe hai bánh, chạy bằng hai bánh đối với xe ba bánh"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/c"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
+	active_now            = 1
+
+	[fines.71_2012_ndcp_1_2_9_7_d]
+	name                  = "Điều khiển xe thành nhóm từ 2 (hai) xe trở lên chạy quá tốc độ quy định"
+	description           = "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+	fine                  = "5000000-7000000"
+	fine_source           = "2012/1/2-9/7/d"
+	updated_ymd           = 20130329
+	active_since_ymd      = 20130314
 	active_now            = 1

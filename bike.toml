@@ -32,7 +32,7 @@ title = "Traffic Fines for Bikes"
 
 	[fines.71_2012_ndcp_1_2_9_5_a]
 	name                  = "Điều khiển xe chạy quá tốc độ quy định từ 10 km/h đến 20 km/h"
-	description           = " Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
 	fine_source           = "2012/1/2-9/5/a"
 	updated_ymd           = 20130329
@@ -41,7 +41,7 @@ title = "Traffic Fines for Bikes"
 
 	[fines.71_2012_ndcp_1_2_9_5_b]
 	name                  = "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở"
-	description           = " Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
+	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
 	fine_source           = "2012/1/2-9/5/b"
 	updated_ymd           = 20130329
@@ -67,7 +67,7 @@ title = "Traffic Fines for Bikes"
 	active_now            = 1
 	
 	[fines.71_2012_ndcp_1_2_9_5_dd]
-	name                  = " Không tuân thủ hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc nơi ùn tắc giao thông; không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông; không nhường đường hoặc gây cản trở xe ưu tiên"
+	name                  = "Không tuân thủ hướng dẫn của người điều khiển giao thông khi qua phà, cầu phao hoặc nơi ùn tắc giao thông; không chấp hành hiệu lệnh của người điều khiển giao thông hoặc người kiểm soát giao thông; không nhường đường hoặc gây cản trở xe ưu tiên"
 	description           = "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng"
 	fine                  = "500000-1000000"
 	fine_source           = "2012/1/2-9/5/dd"
